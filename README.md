@@ -1,5 +1,10 @@
 # multi-k8s
 
+## Create PGPASSWORD 
+```
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=12345asdf
+```
+
 ## Build and Run 
 ```
 # Install cert-manager
