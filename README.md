@@ -33,3 +33,14 @@ To be able to visit the website by IP address, inside ingress-service.yaml file,
 - host: www.k8s-multi.com
 In this case, we can visit with IP address instead of host name.  
 
+## Local development with Skaffold
+Install Skaffold from: https://skaffold.dev/docs/install/
+
+After installation is done, just run:
+```
+skaffold dev 
+```
+It will observe your code change, and automatically deploy the change to Kubernetes.  
+
+
+
