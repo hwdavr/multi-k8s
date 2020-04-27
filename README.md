@@ -1,5 +1,5 @@
 # multi-k8s
-![system](https://github.com/hwdavr/multi-k8s/blob/master/system_archict.png)
+![system](https://github.com/hwdavr/multi-k8s/blob/master/system_architect.png)
 
 ## Create PGPASSWORD 
 Create a password for the postgress and service.  
