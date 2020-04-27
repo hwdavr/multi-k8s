@@ -27,3 +27,9 @@ Add the following line to the bottom of the /etc/hosts file.
 ```
 Now you can use browser to visit "k8s-multi.com" or "www.k8s-multi.com".  
 
+## Visit the Web App by IP
+To be able to visit the website by IP address, inside ingress-service.yaml file, below lines should be removed.
+- host: k8s-multi.com
+- host: www.k8s-multi.com
+In this case, we can visit with IP address instead of host name.  
+
